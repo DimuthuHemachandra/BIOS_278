@@ -234,7 +234,7 @@ This repository contains materials for three comprehensive laboratory sessions:
 
 #### Prerequisites:
 - Completed Labs 1 & 2
-- Access to HPC cluster (e.g., Stanford Sherlock, SCG)
+- Access to HPC cluster (e.g., Stanford Sherlock, farmshare)
 - SSH client
 - Basic Linux/Unix command line skills
 
@@ -261,50 +261,6 @@ This repository contains materials for three comprehensive laboratory sessions:
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-BIOS_278/
-│
-├── 📄 README.md                          # This file
-├── 📁 lab1_github_bids/                  # Lab 1 materials
-│   ├── Lab1_Instructions.md
-│   ├── sample_data/                      # Example MRI data
-│   └── solutions/                        # Reference solutions
-│
-├── 📁 lab2_containers/                   # Lab 2 materials
-│   ├── Lab2_Instructions.md
-│   ├── docker_examples/
-│   │   ├── Dockerfile
-│   │   └── example_pipeline.sh
-│   ├── singularity_examples/
-│   │   ├── definition_file.def
-│   │   └── convert_docker.sh
-│   └── solutions/
-│
-├── 📁 lab3_hpc/                          # Lab 3 materials
-│   ├── Lab3_Instructions.md
-│   ├── slurm_scripts/
-│   │   ├── simple_job.sh
-│   │   ├── array_job.sh
-│   │   └── parallel_workflow.sh
-│   ├── data_transfer/
-│   └── solutions/
-│
-├── 📁 data/                              # Shared datasets
-│   └── sample_mri/                       # Sample MRI data for labs
-│
-└── 📁 resources/                         # Additional materials
-    ├── cheatsheets/
-    │   ├── git_commands.md
-    │   ├── docker_commands.md
-    │   └── slurm_commands.md
-    ├── links.md                          # Useful external resources
-    └── troubleshooting.md                # Common issues and solutions
-```
-
----
-
 ## 🛠️ Required Software
 
 ### All Labs
@@ -323,7 +279,7 @@ BIOS_278/
   - Installation instructions: [Sylabs.io](https://sylabs.io/guides/latest/user-guide/)
 
 ### Lab 3 Specific
-- **HPC Cluster Access** (Stanford Sherlock or SCG)
+- **HPC Cluster Access** (Stanford Sherlock or farmshare)
 - **SSH Client**
   - macOS/Linux: Built-in terminal
   - Windows: PuTTY, MobaXterm, or Windows Terminal
@@ -417,15 +373,6 @@ Work through each lab in order, as they build upon each other:
    - Reach out to instructors and TAs
    - Use course discussion forums
 
-### ⚠️ Common Pitfalls to Avoid
-
-- ❌ Not testing code before running on full datasets
-- ❌ Forgetting to specify resource requirements on HPC
-- ❌ Hardcoding file paths (use relative paths)
-- ❌ Not validating BIDS datasets before analysis
-- ❌ Ignoring error messages and warnings
-- ❌ Not backing up work regularly
-
 ---
 
 ## 🏆 Learning Outcomes
@@ -457,7 +404,7 @@ Upon completing all three labs, you will have:
 ## 📧 Contact and Support
 
 ### Course Instructor
-**Dimuthu Hemachandra**  
+**Dimuthu Hemachandra, PhD**  
 Stanford University
 
 ### Getting Help
@@ -558,6 +505,8 @@ Special thanks to all students and TAs who have contributed feedback and improve
 | Docker Hub | [hub.docker.com](https://hub.docker.com) |
 | Singularity Hub | [singularity-hub.org](https://singularity-hub.org) |
 | Stanford Sherlock | [sherlock.stanford.edu](https://www.sherlock.stanford.edu/) |
+| Stanford Sherlock Ondemand| [sherlock.ondemand](https://ondemand.sherlock.stanford.edu/pun/sys/dashboard/) |
+| Stanford Farmshare Ondemand| [farmshare.ondemand](https://ondemand-01.farmshare.stanford.edu/pun/sys/dashboard) |
 
 ---
 
